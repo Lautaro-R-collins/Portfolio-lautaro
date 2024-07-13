@@ -1,0 +1,66 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+---
+
+<BaseLayout title="Projects" sideBarActiveItemID="services">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Sobre <span class="text-[#69c7c7]">Mi</span></div>
+  </div>
+  
+  <div class="mb-8 flex flex-col md:flex-row md:mt-14 items-center">
+    <text class="text-lg font-bold">    
+      Hola, mi nombre es <span class="text-[#69c7c7]">Lautaro Rodriguez Collins</span>. Mi interés por la tecnología y la programación 
+      surgió mientras cursaba una Tecnicatura Universitaria en Producción y Automatización, donde en
+      mi clase de informática tuve mi primer contacto con el mundo de la programación. Motivado por la curiosidad, 
+      continué estudiando de manera autodidacta, luego en una Tecnicatura de grado Universitaria enfocada en el 
+      <span class="text-[#69c7c7]">desarrollo de software</span>, además de realizar diversos cursos. Siempre estoy comprometido con un constante
+      crecimiento y mejora en mis habilidades. Actualmente, me desempeño como desarrollador de software full-stack , 
+      con un enfoque en el desarrollo <span class="text-[#69c7c7]">front-end</span> y la experiencia del usuario <span class="text-[#69c7c7]">(UX/UI)</span>.
+    </text>
+    <div class="w-[230rem] flex justify-center ml-4">
+      <Image
+        class="max-w-full h-auto rounded-full border-4 border-[#69c7c7]"
+        format="webp"
+        width={310}
+        height={310}
+        src="https://lautaro-rodriguez.onrender.com/static/media/mi%20foto.5aa48eda4ef901033016.png"
+        alt="Profile image"
+      />
+    </div>  
+  </div>
+  <div class="flex flex-row gap-10">
+    <div><span class="text-[#69c7c7]">Tecnologias</span>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>Astro</li>
+        <li>Tailwind</li>
+      </ul>
+    </div>
+    <div><span class="text-[#69c7c7]">Intereses</span>
+      <ul>
+        <li>Programacion</li>
+        <li>Desarrollo de software</li>
+        <li>Entrenamiento</li>
+        <li>Ajedres</li>
+        <li>Musica</li>
+      </ul>
+    </div>
+    <div><span class="text-[#69c7c7]">Idiomas</span>
+      <ul>
+        <li>Español</li>
+        <li>Ingles</li>
+      </ul>
+    </div>
+
+
+
+  </div>
+  
+  
+  
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import SideBarFooter from "./SideBarFooter.astro";
+import { Image } from "astro:assets";
+import SideBarMenu from "./SideBarMenu.astro";
+const { sideBarActiveItemID } = Astro.props;
+---
+
+<div class="drawer-side z-40">
+  <label for="my-drawer" class="drawer-overlay"></label>
+  <aside class="px-2 pt-2 h-auto min-h-full w-[19rem] bg-base-200 text-base-content flex flex-col scroll-">
+    <div class="menu flex flex-col flex-nowrap ml-12 p-4 overflow-y-auto">
+      <a href="/">
+        <div class="avatar transition ease-in-out hover:scale-[102%] block m-auto">
+          <div class="w-[10rem] flex justify-center">
+            <Image
+              class="max-w-full h-auto rounded-full border-4 border-[#69c7c7]"
+              format="webp"
+              width={300}
+              height={300}
+              src="https://lautaro-rodriguez.onrender.com/static/media/mi%20foto.5aa48eda4ef901033016.png"
+              alt="Profile image"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+    <SideBarMenu sideBarActiveItemID={sideBarActiveItemID} />
+    <SideBarFooter />
+  </aside>
+</div>
