@@ -1,56 +1,46 @@
 ---
-title: "Demo Post 1"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
-heroImage: "/post_img.webp"
-tags: ["tokio"]
+title: "Mindset"
+description: "Mentalidad a la hora de aprender, Mentalidad fija Vs Mentalidad de Crecimiento."
+pubDate: "Jul 8, 2024"
+heroImage: "https://blog-lautaro.onrender.com/_astro/johannes-plenio-fmTde1Fe23A-unsplash.cjsryTz0_1AcWdb.jpg"
+tags: ["Aprendizaje","Estudio","Mentalidad"]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer
-malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas
-pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse
-platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada
-fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea
-dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst
-quisque sagittis purus sit amet.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum
-quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet.
-Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus.
-Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit
-ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt
-dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus
-arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed
-tempus urna et pharetra pharetra massa massa ultricies mi.
+## Introducción
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam
-sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec.
-Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna
-fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et
-egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel
-turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra
-nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim
-praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus
-egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam
-ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor
-purus non. Amet dictum sit amet justo donec enim.
+Aprender cualquier habilidad que valga la pena adquirir, puede ser sumamente gratificante cuando empiezas a ver resultados. Sin embargo, en el largo proceso de dominar estas habilidades, nos enfrentamos a desafíos que pueden resultar frustrantes.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut
-consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra.
-Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor
-dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor
-dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque
-eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices
-tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Es por eso que considero crucial adoptar una mentalidad enfocada de crecimiento. Esta mentalidad no solo es vital durante la fase de aprendizaje cuando estamos dando nuestros primeros pasos, sino que también te acompañará a lo largo de tu carrera.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus
-imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu
-cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt
-dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat
-sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida.
-Egestas integer eget aliquet nibh praesent tristique magna.
+## Mentalidad
+
+Es importante ser conscientes de la actitud mental que tenemos al momento de afrontar nuevos desafíos, ya que esta impacta de forma directa en nuestras probabilidades de éxito.
+
+Según la teoría desarrollada por la psicóloga de la Universidad de Stanford, Carol Dweck, las personas pueden tener una de dos mentalidades predominantes: fija o de crecimiento.
+
+1. Mentalidad fija: Alguien con mentalidad fija tiende a creer falsamente que sus habilidades y talentos son innatos y no pueden cambiar de manera significativa. Como resultado, tienden a evitar desafíos y sentirse frustrados si las cosas no les resultan como esperaban al primer intento, y pueden tener pensamientos autodestructivos del tipo "quizás no sea lo suficientemente inteligente para lograrlo".
+2. Mentalidad de crecimiento: Alguien con una mentalidad de crecimiento cree que puede mejorar sus habilidades mediante el esfuerzo, la práctica y la perseverancia. Esta mentalidad lleva a una mayor resiliencia y una mayor disposición para asumir riesgos y enfrentar desafíos, por lo tanto, una mayor probabilidad de tener éxito.
+
+Es muy probable que a lo largo de tu aprendizaje, te encuentres estancado en más de una ocasión. Cuando te encuentres en esa situación, recuerda que puede que aún no consigas lo que sea que te propusiste, pero con perseverancia y determinación lo terminarás logrando. Entender esto es parte de crecer y madurar. Cuando batalles con un concepto o proyecto y te resulte más complicado de lo que pensabas, es importante que adoptes una mentalidad de crecimiento y tengas la determinación y la paciencia para superar esa frustrante tarea. Así es como verdaderamente aprendemos.
+
+Así que, cuando dudes de tus capacidades, reflexiona sobre los éxitos que ya has conseguido en tu vida y cómo lograste superar esos obstáculos, que en su momento parecían imposibles de solucionar, hasta que lo lograste.
+
+## Aplica esto en tu vida diaria
+
+¿Cómo podemos aplicar esto en nuestra vida diaria? Veámoslo:
+
+* Aceptar los desafíos: Ver los desafíos como oportunidades para aprender y crecer en lugar de evitarlos por miedo al fracaso.
+* Aprender del fracaso: El fracaso también es parte de nuestra vida, y aunque parezca un poco contradictorio, también es parte del éxito. Reflexiona sobre los errores y fracasos para ver en qué podemos mejorar, qué podemos ajustar, qué es lo que suma, qué es lo que resta y cómo hacerlo mejor la próxima vez.
+* Persistir a pesar de los obstáculos: Mantener la determinación y no rendirse cuando las cosas se pongan difíciles.
+* Buscar retroalimentación: Pedir a personas más experimentadas en lo que quieres aprender opiniones y críticas constructivas (es importante saber aceptar las críticas) para identificar áreas de mejora.
+* Practicar la paciencia: La paciencia también es una habilidad que se puede desarrollar.
+* Establecer objetivos: Fijar objetivos claros y realistas que aporten a tus metas.
+* Valorar el proceso, no solo el resultado: Enfocarse en el esfuerzo y el aprendizaje continuo, no solo en los logros finales.
+* Celebrar los pequeños logros: Celebra tus logros por más pequeños que parezcan, esto nos sirve como motivación para futuros desafíos y para hacer más llevadero un gran desafío. Esto puede ser desde terminar un proyecto personal si lo tuyo es el desarrollo de software, hasta levantar 5 kg más en press de banca si lo tuyo es el gimnasio.
+* Adoptar una actitud positiva: Mantener una mentalidad optimista y creer en la capacidad de mejorar con esfuerzo y práctica.
+* Ser adaptable: Si bien la constancia es importante, también lo es evaluar y modificar nuestras acciones en función de lograr un objetivo más grande.
+
+## Conclusión
+
+Aprender una habilidad, como puede ser programar o alcanzar una meta personal o profesional, como conseguir el trabajo que deseas o realizar un cambio en tu estilo de vida, es una tarea desafiante. En este camino nos enfrentaremos a frustraciones, períodos de estancamiento, cometeremos errores y podemos caer en pensamientos destructivos debido a una mentalidad fija, creyendo que no somos capaces de lograrlo. En esos momentos es crucial identificar esta mentalidad y comprender que nuestras habilidades y capacidades pueden desarrollarse; que realmente podemos mejorar. Es fundamental no limitarnos a nosotros mismos y entender que a veces solo necesitamos más tiempo y esfuerzo para adquirir nuevas habilidades o perfeccionar las que ya poseemos, todo en pos de alcanzar nuestras metas.

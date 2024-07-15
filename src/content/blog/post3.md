@@ -1,57 +1,40 @@
 ---
-title: "Demo Post 3"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 12 2022"
-heroImage: "/post_img.webp"
-badge: "Demo badge"
-tags: ["rust","tokio"]
+title: "Saber pedir ayuda"
+description: "Consejos al momento de preguntar."
+pubDate: "Jul 14, 2024"
+heroImage: "https://blog-lautaro.onrender.com/_astro/ayuda.JZQbDY0b_2m1WYR.jpg"
+tags: ['programación',
+'desarrollo web']
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer
-malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas
-pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse
-platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada
-fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea
-dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst
-quisque sagittis purus sit amet.
+## Introducción
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum
-quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet.
-Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus.
-Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit
-ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt
-dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus
-arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed
-tempus urna et pharetra pharetra massa massa ultricies mi.
+A lo largo de tu carrera en el mundo de la programación, ya sea si estás formalmente en un equipo de trabajo o trabajas de manera freelance, es inevitable que surjan problemas. La programación, en sí misma y de manera simple, es el proceso de resolver un problema específico mediante el uso de código en un lenguaje de programación. En algunos casos, nos quedaremos estancados y necesitaremos saber cómo preguntar.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam
-sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec.
-Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna
-fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et
-egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel
-turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra
-nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim
-praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus
-egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam
-ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor
-purus non. Amet dictum sit amet justo donec enim.
+Si bien preguntar puede parecer una tarea sencilla, en un contexto técnico es importante saber formular bien la pregunta, proporcionando el contexto necesario para aprovechar al máximo la ayuda y ser considerado con el tiempo de la persona que nos está ayudando, ya sea un compañero de trabajo o en una pregunta hecha en Stack Overflow.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut
-consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra.
-Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor
-dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor
-dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque
-eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices
-tincidunt arcu. Id cursus metus aliquam eleifend mi.
+## Consejos al momento de preguntar
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus
-imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu
-cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt
-dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat
-sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida.
-Egestas integer eget aliquet nibh praesent tristique magna.
+Antes de hacer una pregunta lo recomendable es investigar primero, intentarlo resolver por nuestra cuenta, usando google, revisa la documentación de la tecnologia que estamos usando,buscando en Stack Overflow, preguntando en Chat Gpt, etc. pero cuando agotemos estos recursos debemos saber como pedir ayudar:
+
+### Proporcionar tu codigo y el contexto del mismo
+
+Cuando hagas una pregunta, es importante que proporciones el código, el mensaje de error que arroja la consola, la salida del servidor y otros detalles relevantes. Debemos proporcionar la mayor cantidad de detalles relevantes al problema, como indicar una función específica o el número de línea que da problemas en el código.
+
+Si la pregunta no incluye el código, el mensaje de error y cualquier información pertinente, será mucho más difícil que nos ayuden, y gastaremos más tiempo en idas y vueltas hasta llegar al problema específico. Esto puede ser frustrante tanto para la persona que nos quiere ayudar como para nosotros mismos por lo que debemos evitar preguntar sin dar el contexto necesario.
+
+### Preguntar sobre el problema y no sobre la solucion en si misma
+
+Cuando se trata de pedir ayuda en programación, es fundamental enfocarse en el problema y no en la solución directa, entender completamente el problema desarrollará tus habilidades de resolución de problemas y pensamiento crítico.
+
+Cuando formules tu pregunta, además de proporcionar un contexto claro sobre lo que estás tratando de lograr, hay que mencionar los esfuerzos hechos para resolverlo. Esto es importante porque al compartir lo que ya has intentado evitas que las personas pueden sugerir soluciones que no te han funcionado y enfocarse en depurar tu iteración actual de código, en lugar de enviarte por un camino completamente nuevo cuando podrías estar cerca de una solución.
+
+Si no sabes por dónde empezar, no dudes en pedir orientación. Preguntar por un punto de partida y qué investigar te permitirá resolver problemas por tu cuenta en el futuro y esto tambien te preparará para ayudar a otras personas con problemas similares. Compartir tu pseudocódigo también puede ser útil, ya que permite a los demás guiarte en la dirección correcta o corregir cualquier malentendido.
+
+Ten pasiencia si te piden algo mas de contexto, por mas que te parezca "obvio" puede no serlo para ellos porque una persona mas experimentada, conoce muchas situaciones diferentes que podrían estar causando tu problema y quiere evitar mandarte por el camino equivocado asi que confía en su criterio y experiencia cuando te pidan más información, ya que probablemente tengan una buena razón para hacerlo.
+
+### Ser Respetuoso y Agradecido
+
+La paciencia es clave, puede que no recibas una respuesta inmediata, y eso está bien. Asegúrate de agradecer cualquier ayuda que recibas, incluso si no resuelve tu problema por completo. Un simple "gracias" puede significar mucho y muestra que valoras el tiempo y el esfuerzo de la persona que te ayudó.
+
+Ser amable y mostrar gratitud no solo crea un ambiente más positivo de trabajo, sino que también aumenta las probabilidades de que la gente esté dispuesta a ayudarte en el futuro. Trabajar en las habilidades blandas no es un punto menor, ya que avanzamos más rápido y de forma más productiva si lo hacemos juntos.

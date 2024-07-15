@@ -3,9 +3,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 ---
 
-<BaseLayout title="Projects" sideBarActiveItemID="services">
+<BaseLayout title="about" sideBarActiveItemID="about">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Sobre <span class="text-[#69c7c7]">Mi</span></div>
+    <div class="text-3xl -mb-10 w-full font-bold">Sobre <span class="text-[#69c7c7]">Mi</span></div>
   </div>
   
   <div class="mb-8 flex flex-col md:flex-row md:mt-14 items-center">
@@ -18,17 +18,8 @@ import { Image } from "astro:assets";
       crecimiento y mejora en mis habilidades. Actualmente, me desempeño como desarrollador de software full-stack , 
       con un enfoque en el desarrollo <span class="text-[#69c7c7]">front-end</span> y la experiencia del usuario <span class="text-[#69c7c7]">(UX/UI)</span>.
     </text>
-    <div class="w-[230rem] flex justify-center ml-4">
-      <Image
-        class="max-w-full h-auto rounded-full border-4 border-[#69c7c7]"
-        format="webp"
-        width={310}
-        height={310}
-        src="https://lautaro-rodriguez.onrender.com/static/media/mi%20foto.5aa48eda4ef901033016.png"
-        alt="Profile image"
-      />
-    </div>  
   </div>
+  
   <div class="flex flex-row gap-10">
     <div><span class="text-[#69c7c7]">Tecnologias</span>
       <ul>
@@ -39,15 +30,26 @@ import { Image } from "astro:assets";
         <li>React</li>
         <li>Astro</li>
         <li>Tailwind</li>
+        <li>Bootstrap</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>SQL</li>
+        <li>MongoDb</li>
+        <li>Python</li>
+        <li>Git</li>
       </ul>
     </div>
     <div><span class="text-[#69c7c7]">Intereses</span>
       <ul>
-        <li>Programacion</li>
+        <li>Programación</li>
         <li>Desarrollo de software</li>
+        <li>FrontEnd</li>
         <li>Entrenamiento</li>
         <li>Ajedres</li>
         <li>Musica</li>
+        <li>Deportes</li>
+        <li>Lectura</li>
+        <li>Escribir</li>
       </ul>
     </div>
     <div><span class="text-[#69c7c7]">Idiomas</span>
@@ -56,11 +58,5 @@ import { Image } from "astro:assets";
         <li>Ingles</li>
       </ul>
     </div>
-
-
-
   </div>
-  
-  
-  
 </BaseLayout>
