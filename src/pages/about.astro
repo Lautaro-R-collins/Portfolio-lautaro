@@ -1,61 +1,38 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
 ---
 
 <BaseLayout title="about" sideBarActiveItemID="about">
-  <div>
-    <div class="text-3xl -mb-10 w-full font-bold">Sobre <span class="text-[#69c7c7]">Mi</span></div>
+  <div class="text-2xl md:text-3xl lg:text-4xl mb-6 lg:mb-10 w-full font-bold">
+    Sobre <span class="text-[#69c7c7]">Mi</span>
   </div>
-  
-  <div class="mb-8 flex flex-col md:flex-row md:mt-14 items-center">
-    <text class="text-lg font-bold">    
-      Hola, mi nombre es <span class="text-[#69c7c7]">Lautaro Rodriguez Collins</span>. Mi interés por la tecnología y la programación 
-      surgió mientras cursaba una Tecnicatura Universitaria en Producción y Automatización, donde en
-      mi clase de informática tuve mi primer contacto con el mundo de la programación. Motivado por la curiosidad, 
-      continué estudiando de manera autodidacta, luego en una Tecnicatura de grado Universitaria enfocada en el 
-      <span class="text-[#69c7c7]">desarrollo de software</span>, además de realizar diversos cursos. Siempre estoy comprometido con un constante
-      crecimiento y mejora en mis habilidades. Actualmente, me desempeño como desarrollador de software full-stack , 
-      con un enfoque en el desarrollo <span class="text-[#69c7c7]">front-end</span> y la experiencia del usuario <span class="text-[#69c7c7]">(UX/UI)</span>.
-    </text>
-  </div>
-  
-  <div class="flex flex-row gap-10">
-    <div><span class="text-[#69c7c7]">Tecnologias</span>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>React</li>
-        <li>Astro</li>
-        <li>Tailwind</li>
-        <li>Bootstrap</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>SQL</li>
-        <li>MongoDb</li>
-        <li>Python</li>
-        <li>Git</li>
-      </ul>
+
+  <div class="mb-8 flex flex-col md:flex-row md:mt-14 items-start">
+    <div class="text-lg font-bold">
+      Hola, mi nombre es <span class="text-[#69c7c7]">Lautaro Rodriguez Collins</span>. Mi interés por la tecnología y la programación surgió mientras cursaba una Tecnicatura Universitaria en Producción y Automatización, donde en mi clase de informática tuve mi primer contacto con el mundo de la programación. Motivado por la curiosidad, continué estudiando de manera autodidacta, luego en una Tecnicatura de grado Universitaria enfocada en el <span class="text-[#69c7c7]">desarrollo de software</span>, además de realizar diversos cursos. Siempre estoy comprometido con un constante crecimiento y mejora en mis habilidades. Actualmente, me desempeño como desarrollador de software full-stack, con un enfoque en el desarrollo <span class="text-[#69c7c7]">front-end</span> y la experiencia del usuario <span class="text-[#69c7c7]">(UX/UI)</span>.
     </div>
-    <div><span class="text-[#69c7c7]">Intereses</span>
-      <ul>
+  </div>
+
+  <div class="flex flex-col md:flex-row gap-6 md:gap-10">
+    <div>
+      <span class="text-[#69c7c7]">Intereses</span>
+      <ul class="list-disc ml-4">
         <li>Programación</li>
         <li>Desarrollo de software</li>
         <li>FrontEnd</li>
         <li>Entrenamiento</li>
-        <li>Ajedres</li>
-        <li>Musica</li>
+        <li>Ajedrez</li>
+        <li>Música</li>
         <li>Deportes</li>
         <li>Lectura</li>
         <li>Escribir</li>
       </ul>
     </div>
-    <div><span class="text-[#69c7c7]">Idiomas</span>
-      <ul>
+    <div>
+      <span class="text-[#69c7c7]">Idiomas</span>
+      <ul class="list-disc ml-4">
         <li>Español</li>
-        <li>Ingles</li>
+        <li>Inglés</li>
       </ul>
     </div>
   </div>
