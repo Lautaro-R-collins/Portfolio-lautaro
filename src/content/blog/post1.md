@@ -1,6 +1,6 @@
 ---
 title: "Mindset"
-description: "Mentalidad a la hora de aprender, Mentalidad fija Vs Mentalidad de Crecimiento."
+description: "Aprender cualquier habilidad que valga la pena adquirir, puede ser sumamente gratificante cuando empiezas a ver resultados. Sin embargo..."
 pubDate: "Jul 8, 2024"
 heroImage: "https://blog-lautaro.onrender.com/_astro/johannes-plenio-fmTde1Fe23A-unsplash.cjsryTz0_1AcWdb.jpg"
 tags: ["Aprendizaje","Estudio","Mentalidad"]

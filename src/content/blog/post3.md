@@ -1,6 +1,6 @@
 ---
 title: "Saber pedir ayuda"
-description: "Consejos al momento de preguntar."
+description: "A lo largo de tu carrera en el mundo de la programación, ya sea si estás formalmente en un equipo de trabajo o trabajas de manera freelance, es inevitable que surjan problemas..."
 pubDate: "Jul 14, 2024"
 heroImage: "https://blog-lautaro.onrender.com/_astro/ayuda.JZQbDY0b_2m1WYR.jpg"
 tags: ['programación',

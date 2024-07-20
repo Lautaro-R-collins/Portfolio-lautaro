@@ -1,6 +1,6 @@
 ---
 title: "Porque Astro"
-description: "Porque aprender a usar Astro."
+description: "En el mundo del desarrollo frontend, constantemente surgen nuevas herramientas y frameworks que buscan facilitar nuestro trabajo y mejorar el rendimiento..."
 pubDate: " Jul 12, 2024"
 heroImage: "https://blog-lautaro.onrender.com/_astro/placeholder-hero.GamGidh7_2hSjBt.jpg"
 tags: ['frontend',

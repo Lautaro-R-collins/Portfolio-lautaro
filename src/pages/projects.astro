@@ -1,6 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCardProyect from "../components/HorizontalCardProject.astro";
+
+const technologies = [
+  { name: 'Astro', color: '#4CAF50' },
+  { name: 'TypeScript', color: '#007ACC' },
+  { name: 'Tailwind', color: '#38B2AC' }
+];
 ---
 
 
@@ -12,7 +18,7 @@ import HorizontalCardProyect from "../components/HorizontalCardProject.astro";
   <HorizontalCardProyect
     title="Blog Personal"
     img="https://pbs.twimg.com/media/GSjJXPEWUAAReFx?format=jpg&name=small"
-    desc="Blog personal echo con Astro, React, graphql y tailwind, donde puedes encontrar algunos de mis articulos."
+    desc="Blog personal echo con Astro + TypeScript y tailwind, donde puedes encontrar mis articulos."
     projectUrl="https://blog-lautaro.onrender.com/"
     githubUrl="https://github.com/Lautaro-R-collins/Blog-lautaro.git"
     badge="NEW"
