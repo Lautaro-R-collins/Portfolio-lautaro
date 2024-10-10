@@ -6,9 +6,6 @@ import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
 import { Type } from "../components/Type.jsx"
 
-
-
-
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const last_posts = posts.slice(0, 3);
@@ -94,6 +91,16 @@ const last_posts = posts.slice(0, 3);
     desc="Blog personal echo con Astro + TypeScript y tailwind, donde puedes encontrar mis articulos."
     projectUrl="https://blog-lautaro.onrender.com/"
     githubUrl="https://github.com/Lautaro-R-collins/Blog-lautaro.git"
+    badge="NEW"
+
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCardProyect
+    title="Traker Ingresos-Gastos"
+    img="https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos/raw/main/src/assets/Screenshot%202024-10-10%20150940.png"
+    desc="App construida con React + Vite, Tailwind para los estilos y manejo de estado mediante Context API. Realiza operaciones CRUD para agregar, ver, editar y eliminar ingresos/gastos."
+    projectUrl="https://traker-gastos-ingresos.onrender.com/"
+    githubUrl="https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos"
     badge="NEW"
 
   />
