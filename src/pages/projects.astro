@@ -3,40 +3,18 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCardProyect from "../components/HorizontalCardProject.astro";
 
 const technologies = [
-  { name: 'Astro', color: '#4CAF50' },
-  { name: 'TypeScript', color: '#007ACC' },
-  { name: 'Tailwind', color: '#38B2AC' }
+  { name: "Astro", color: "#4CAF50" },
+  { name: "TypeScript", color: "#007ACC" },
+  { name: "Tailwind", color: "#38B2AC" },
 ];
 ---
 
-
 <BaseLayout title="Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-4xl w-full font-bold mb-5">Mis<span class="text-[#69c7c7]"> Proyectos</span></div>
+    <div class="text-4xl w-full font-bold mb-5">
+      Mis<span class="text-[#69c7c7]"> Proyectos</span>
+    </div>
   </div>
-
-  
-  <HorizontalCardProyect
-    title="Traker Ingresos-Gastos"
-    img="https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos/raw/main/src/assets/Screenshot%202024-10-10%20150940.png"
-    desc="App construida con React + Vite, Tailwind para los estilos y manejo de estado mediante Context API. Realiza operaciones CRUD para agregar, ver, editar y eliminar ingresos/gastos."
-    projectUrl="https://traker-gastos-ingresos.onrender.com/"
-    githubUrl="https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos"
-    badge="NEW"
-
-  />
-  <div class="divider my-0"></div>
-
-  <HorizontalCardProyect
-  title="100 days coding in Js"
-  img="https://github.com/Lautaro-R-collins/100-proyects-web/raw/master/public/Screenshot%202024-09-06%20024210.png"
-  desc="100 proyectos, los cuales se actualizarán a lo largo del reto de 100 días programando, realizados con HTML, CSS y JavaScript."
-  projectUrl="https://one00-proyects-web.onrender.com/"
-  githubUrl="https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS"
-  badge="NEW"
-  />
-
-  <div class="divider my-0"></div>
 
   <HorizontalCardProyect
     title="Blog Personal"
@@ -50,6 +28,49 @@ const technologies = [
   <div class="divider my-0"></div>
 
   <HorizontalCardProyect
+    title="Ecommerce - Feria Artesana"
+    img="https://i.pinimg.com/736x/0a/88/bb/0a88bb979485200734c56cb4fe66d22d.jpg"
+    desc="Ecommerce Full-Stack para ver, comprar y vender tus productos, con login para usuarios y vendedores, Stack: React, Node, Express, MongoDB, Tailwind, Cloudinary."
+    projectUrl="https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/"
+    githubUrl="https://github.com/No-Country-simulation/c21-05-ft-node-react"
+    badge="NEW"
+  />
+  <div class="divider my-0"></div>
+  
+  <HorizontalCardProyect
+    title="Traker Ingresos-Gastos"
+    img="https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos/raw/main/src/assets/Screenshot%202024-10-10%20150940.png"
+    desc="App construida con React + Vite, Tailwind para los estilos y manejo de estado mediante Context API. Realiza operaciones CRUD para agregar, ver, editar y eliminar ingresos/gastos."
+    projectUrl="https://traker-gastos-ingresos.onrender.com/"
+    githubUrl="https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos"
+    badge="NEW"
+  />
+
+  <div class="divider my-0"></div>
+
+  <HorizontalCardProyect
+    title="App-clima"
+    img="https://github.com/Lautaro-R-collins/app-clima/raw/main/src/assets/Screenshot%202024-11-28%20170528.png"
+    desc="Aplicación de pronóstico del clima desarrollada con React y Tailwind CSS, que utiliza una API para mostrar el clima en tiempo real y permite cambiar entre modo claro y oscuro."
+    projectUrl="https://app-clima-om19.onrender.com/"
+    githubUrl="https://github.com/Lautaro-R-collins/app-clima.git"
+    badge="NEW"
+  />
+
+  <div class="divider my-0"></div>
+
+  <HorizontalCardProyect
+    title="100 days coding in Js"
+    img="https://github.com/Lautaro-R-collins/100-proyects-web/raw/master/public/Screenshot%202024-09-06%20024210.png"
+    desc="100 proyectos, los cuales se actualizarán a lo largo del reto de 100 días programando, realizados con HTML, CSS y JavaScript."
+    projectUrl="https://one00-proyects-web.onrender.com/"
+    githubUrl="https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS"
+    badge="NEW"
+  />
+
+  <div class="divider my-0"></div>
+
+  <HorizontalCardProyect
     title="Video call app"
     img="https://pbs.twimg.com/media/GLgdUdlXoAAq22d?format=jpg&name=small"
     desc="App Web echa con Next.js, TypeScript y tailwind para los estilos, donde puedes programar video llamadas grupales, grabar y guardar la llamada y mas."
@@ -57,14 +78,7 @@ const technologies = [
     githubUrl="https://github.com/Lautaro-R-collins/meet-app"
     badge="NEW"
   />
-  <div class="divider my-0"></div>
-  <HorizontalCardProyect
-    title="CRUD-Gestion de usuarios"
-    img="https://pbs.twimg.com/media/GTH8kYNXoAEsp4W?format=png&name=small"
-    desc="Interfaz para ingresar, leer, modificar y eliminar usuarios o clientes, desarrollada con React.js y Bootstrap para el frontend, Node.js para el backend y MySQL como base de datos."
-    githubUrl="https://github.com/Lautaro-R-collins/crud-gestion-clientes.git"
-    badge="NEW"
-  />
+
   <div class="divider my-0"></div>
   <HorizontalCardProyect
     title="PlaniFy"
@@ -80,7 +94,6 @@ const technologies = [
     img="https://pbs.twimg.com/media/GNMQcNCXYAAeBNx?format=jpg&name=small"
     desc="Desarrollo el front-end de una página web dedicada al comercio electrónico y al desarrollo web para este proyecto se uso React + Vite JavaScript y tailwind."
     projectUrl="https://vegna-tech.onrender.com//"
-  
   />
   <div class="divider my-0"></div>
   <HorizontalCardProyect
@@ -91,6 +104,4 @@ const technologies = [
     githubUrl="https://github.com/Lautaro-R-collins/mi-portfolio.git"
   />
   <div class="divider my-0"></div>
-
-
 </BaseLayout>
