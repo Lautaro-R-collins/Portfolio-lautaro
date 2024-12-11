@@ -2,7 +2,7 @@
 title: "Mindset"
 description: "Aprender cualquier habilidad que valga la pena adquirir, puede ser sumamente gratificante cuando empiezas a ver resultados. Sin embargo..."
 pubDate: "Jul 8, 2024"
-heroImage: "https://blog-lautaro.onrender.com/_astro/johannes-plenio-fmTde1Fe23A-unsplash.cjsryTz0_1AcWdb.jpg"
+heroImage: "https://blog-lautaro.onrender.com/_astro/ayuda.llBsNjRs_ZhttuX.webp"
 tags: ["Aprendizaje","Estudio","Mentalidad"]
 ---
 

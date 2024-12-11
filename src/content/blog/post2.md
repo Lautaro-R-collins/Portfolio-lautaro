@@ -2,7 +2,7 @@
 title: "Porque Astro"
 description: "En el mundo del desarrollo frontend, constantemente surgen nuevas herramientas y frameworks que buscan facilitar nuestro trabajo y mejorar el rendimiento..."
 pubDate: " Jul 12, 2024"
-heroImage: "https://blog-lautaro.onrender.com/_astro/placeholder-hero.GamGidh7_2hSjBt.jpg"
+heroImage: "https://blog-lautaro.onrender.com/_astro/placeholder-hero.ZqYaJ2Hs_Z1WGzE2.webp"
 tags: ['frontend',
 'desarrollo web',
 'astro',
