@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCardProyect from "../components/HorizontalCardProject.astro";
+import imag from "../assets/100-proyects-web/public/Screenshot 2024-09-06 024210.png";
 
 const technologies = [
   { name: "Astro", color: "#4CAF50" },
@@ -10,13 +11,13 @@ const technologies = [
 ---
 
 <BaseLayout title="Projects" sideBarActiveItemID="projects">
-  
   <div class="text-4xl w-full font-bold mb-5">
     Mis<span class="text-[#69c7c7]"> Proyectos</span>
   </div>
 
-  <div class="mb-5"> 
-    Explora algunos de mis proyectos personales donde aplico mis habilidades en desarrollo web, diseño de interfaces y programación.
+  <div class="mb-5">
+    Explora algunos de mis proyectos personales donde aplico mis habilidades en
+    desarrollo web, diseño de interfaces y programación.
   </div>
 
   <HorizontalCardProyect
@@ -25,18 +26,18 @@ const technologies = [
     desc="Blog personal echo con Astro + TypeScript y tailwind, donde puedes encontrar mis articulos."
     projectUrl="https://blog-lautaro.onrender.com/"
     githubUrl="https://github.com/Lautaro-R-collins/Blog-lautaro.git"
-    badge="NEW"
+    badges={["Astro", "TypeScript"]}
   />
 
   <div class="divider my-0"></div>
 
   <HorizontalCardProyect
-    title="Ecommerce - Feria Artesana"
+    title="Ecommerce"
     img="https://i.pinimg.com/736x/0a/88/bb/0a88bb979485200734c56cb4fe66d22d.jpg"
     desc="Ecommerce Full-Stack para ver, comprar y vender tus productos, con login para usuarios y vendedores, Stack: React, Node, Express, MongoDB, Tailwind, Cloudinary."
     projectUrl="https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/"
     githubUrl="https://github.com/No-Country-simulation/c21-05-ft-node-react"
-    badge="NEW"
+    badges={["React", "Express", "MongoDB"]}
   />
   <div class="divider my-0"></div>
 
@@ -46,7 +47,7 @@ const technologies = [
     desc="App construida con React + Vite, Tailwind para los estilos y manejo de estado mediante Context API. Realiza operaciones CRUD para agregar, ver, editar y eliminar ingresos/gastos."
     projectUrl="https://traker-gastos-ingresos.onrender.com/"
     githubUrl="https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos"
-    badge="NEW"
+    badges={["React", "contextAPI"]}
   />
 
   <div class="divider my-0"></div>
@@ -57,18 +58,18 @@ const technologies = [
     desc="Aplicación de pronóstico del clima desarrollada con React y Tailwind CSS, que utiliza una API para mostrar el clima en tiempo real y permite cambiar entre modo claro y oscuro."
     projectUrl="https://app-clima-om19.onrender.com/"
     githubUrl="https://github.com/Lautaro-R-collins/app-clima.git"
-    badge="NEW"
+    badges={["React"]}
   />
 
   <div class="divider my-0"></div>
 
   <HorizontalCardProyect
     title="100 days coding in Js"
-    img="https://github.com/Lautaro-R-collins/100-proyects-web/raw/master/public/Screenshot%202024-09-06%20024210.png"
+    img="https://i.pinimg.com/736x/5f/f2/ce/5ff2ce0c437742d25aecd48441f5b761.jpg"
     desc="100 proyectos, los cuales se actualizarán a lo largo del reto de 100 días programando, realizados con HTML, CSS y JavaScript."
     projectUrl="https://one00-proyects-web.onrender.com/"
     githubUrl="https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS"
-    badge="NEW"
+    badges={["HTML", "CSS", "JavaScript"]}
   />
   <div class="divider my-0"></div>
   <HorizontalCardProyect
@@ -77,7 +78,7 @@ const technologies = [
     desc="App Web para organizar tus proyectos, echa con React + Vite, TypeScript y tailwind para los estilos."
     projectUrl="https://planify-1tu6.onrender.com/"
     githubUrl="https://github.com/Lautaro-R-collins/PlaniFy-organization-app"
-    badge=""
+    badges={["React", "TypeScript"]}
   />
   <div class="divider my-0"></div>
   <HorizontalCardProyect
@@ -86,6 +87,7 @@ const technologies = [
     desc="Mi antiguo Portfolio Personal bilingue (i18n) echo con React, JavaScript y CSS puro."
     projectUrl="https://lautaro-rodriguez.onrender.com/"
     githubUrl="https://github.com/Lautaro-R-collins/mi-portfolio.git"
+    badges={["React"]}
   />
   <div class="divider my-0"></div>
 </BaseLayout>
