@@ -14,7 +14,7 @@ import { Image } from "astro:assets";
 ---
 
 <div
-  class="rounded-lg bg-dark-card-bg shadow-[0px_4px_20px_rgba(0,0,0,0.4),0px_6px_30px_rgba(0,0,0,0.25)] transition ease-in-out hover:scale-[102%] hover:shadow-[0px_6px_25px_rgba(0,0,0,0.5),0px_8px_35px_rgba(0,0,0,0.3)]"
+  class="rounded-lg bg-zinc-800 transition ease-in-out hover:scale-[102%]"
 >
   <a href={url} target={target} class="block">
     <div class="hero-content flex-col md:flex-row">
@@ -23,7 +23,7 @@ import { Image } from "astro:assets";
           <Image
             src={img}
             width={760}
-            height={422}
+            height={522}
             format="webp"
             alt={title}
             class="max-w-full md:max-w-[15rem] rounded-lg"
