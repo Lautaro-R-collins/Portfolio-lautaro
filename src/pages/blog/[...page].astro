@@ -15,7 +15,7 @@ const { page } = Astro.props;
 
 <BaseLayout title="Blog" sideBarActiveItemID="blog">
   <div class="mb-5">
-    <div class="text-4xl w-full font-bold">Mis <span class="text-[#69c7c7]">Artículos</span></div>
+    <div class="text-4xl w-full font-bold">Mis <span class="text-primary">Artículos</span></div>
   </div>
   
   <div class="mb-5"> 
@@ -41,7 +41,6 @@ const { page } = Astro.props;
               badge={post.data.badge}
               tags={post.data.tags}
             />
-            <div class="divider my-0" />
           </>
         ))}
       </ul>

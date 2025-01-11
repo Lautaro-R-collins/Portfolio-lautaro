@@ -14,7 +14,7 @@ import { Image } from "astro:assets";
 ---
 
 <div
-  class="rounded-lg bg-zinc-800 transition ease-in-out hover:scale-[102%]"
+  class="rounded-lg bg-zinc-800 transition ease-in-out hover:scale-[101%] mb-6"
 >
   <a href={url} target={target} class="block">
     <div class="hero-content flex-col md:flex-row">
@@ -32,7 +32,7 @@ import { Image } from "astro:assets";
       }
       <div class="grow w-full">
         <h1 class="text-xl font-bold">
-          <span class="text-[#69c7c7]">{title}</span>
+          <span class="text-primary">{title}</span>
           <div>
             {
               badges &&

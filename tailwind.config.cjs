@@ -2,16 +2,19 @@
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		extend: {},
-	},
-	fontFamily: {
-		poppins: ['Poppins', 'sans-serif'],
+		extend: {
+			fontFamily: {
+				poppins: ['Poppins', 'sans-serif'],
+			},
+			colors: {
+				primary: '#69c7c7',
+			},
+		},
 	},
 	plugins: [require("@tailwindcss/typography"), require("daisyui")],
 	daisyui: {
-		themes: ["business"], // true: all themes | false: only light + dark | array: specific themes like this ["light", "dark", "cupcake"]
-		darkTheme: "false", // name of one of the included themes for dark mode
-		logs: false, // Shows info about daisyUI version and used config in the console when building your CSS
-	}
-}
-
+		themes: ["business"], 
+		darkTheme: "false", 
+		logs: false, 
+	},
+};
